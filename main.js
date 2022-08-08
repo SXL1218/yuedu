@@ -17,6 +17,7 @@ Vue.prototype.checkLogin = function(backpage, backtype){
 // 定义全局APi 接口地址及token
 const APITOKEN = 'api2018'
 
+
 Vue.prototype.apiServer    = 'https://www.dandan.link/index.php?token='+APITOKEN+'&c=';
 Vue.prototype.staticServer = 'https://www.dandan.link/';
 const appid = 'wxc053d04b0e3a34c8'
